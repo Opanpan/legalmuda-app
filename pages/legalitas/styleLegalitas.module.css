@@ -1,0 +1,17 @@
+  .hr1 {
+    width:228px;
+    height:3px;
+    color:rgb(0, 0, 0) !important;
+    background-color:black !important; 
+    margin:auto;
+    opacity: 1;
+    margin-top: 5px;
+  }
+  
+  .h4{
+    font-size:16px;
+    font-weight:300;
+    font-style: normal;
+    padding-top: 5px;
+    align-items: center;
+  }
