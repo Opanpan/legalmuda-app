@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Col, Container, Row } from 'react-bootstrap'
 import Image from 'next/image'
 import legalitas from '../assets/img/legalitas.svg'
-import legalitasPage from '../pages/legalitas/legalitasPage'
+import legalitasPage from './legalitas'
 
 export default function Home() {
   return (
