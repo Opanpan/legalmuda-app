@@ -13,6 +13,7 @@ export default function Artikel() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header pageName={pageName} />
+      <h1>Artikel Page</h1>
     </Container>
   );
 }
