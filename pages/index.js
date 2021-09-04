@@ -1,23 +1,21 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import { Col, Container, Row } from 'react-bootstrap'
-import Image from 'next/image'
-import legalitas from '../assets/img/legalitas.svg'
-import legalitasPage from '../pages/legalitas/legalitasPage'
+import Head from "next/head";
+import Link from "next/link";
+import { Col, Container, Row } from "react-bootstrap";
+import Header from "./components/Header";
+import { useRouter } from "next/router";
 
 export default function Home() {
+  const router = useRouter();
+  const pageName = router.pathname;
   return (
     <>
-      <Container fluid>
+      <Container fluid className="p-0">
         <Head>
-          <title>Create Next Apps</title>
+          <title>Legal Muda</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-      <Link href="/legalitas/legalitasPage">
-      <a>test</a>
-      </Link>
-
+        <Header pageName={pageName} />
       </Container>
-      </>
-  )
+    </>
+  );
 }
