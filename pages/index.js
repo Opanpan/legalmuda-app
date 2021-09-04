@@ -1,6 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Header from "./components/Header";
 import { useRouter } from "next/router";
 
