@@ -47,6 +47,8 @@ font-weight: 300;
   margin-right:auto;
   border-radius: 15px;
   box-shadow: 0 3px 15px rgb(0 0 0 / 0.2);
+  color: white;
+  background: linear-gradient(#1C04FC, #0F0663);
 }
 
 .hr1 {
@@ -58,5 +60,17 @@ font-weight: 300;
   opacity: 1;
   margin-top: 5px;
 }
+
+.hrCard {
+  width: 228px;
+  height: 3px;
+  color: rgb(0, 0, 0) !important;
+  background-color: white !important;
+  margin: auto;
+  opacity: 1;
+  margin-top: 5px;
+}
+
+
 
 

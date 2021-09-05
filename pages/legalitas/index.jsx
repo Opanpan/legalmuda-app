@@ -1,10 +1,10 @@
 import Head from "next/head";
 import styles from "./Legalitas.module.scss";
-import { Col, Container, Row, Card } from "react-bootstrap";
+import { Col, Container, Row, Card, Button } from "react-bootstrap";
 import Image from "next/image";
 import legalitas from "../../assets/img/legalitas.svg";
 
-import ceklis from "../../assets/img/ceklis.svg";
+import ceklis from "../../assets/img/ceklis2.svg";
 import { useRouter } from "next/router";
 import Header from "../components/Header";
 
@@ -37,6 +37,7 @@ export default function Home() {
         </Col>
         <Col md={7} style={{ textAlign: "right" }}>
           <Image src={legalitas} alt="Contract" width={755} height={468} />
+          {/* <Legalitas width={755} height={468}/> */}
         </Col>
       </Row>
       <Row style={{ backgroundColor: "#e4eefc", height: "2000px" }}>
@@ -55,36 +56,43 @@ export default function Home() {
             <Col md={4}>
               <Card className={styles.card}>
                 <Card.Body>
-                  <Card.Title>IDR 7 JT</Card.Title>
-                  <Card.Subtitle className="mb-2 text-muted">Pendirian PT Kecil</Card.Subtitle>
+                <Row style={{minHeight:"400px", marginLeft:"auto", marginRight:"auto"}}>
+                  <Card.Title style={{paddingTop:"28px",marginBottom:"-10px", fontSize:"24px", fontWeight:"700"}}>IDR 7 JT</Card.Title>
+                  <Card.Subtitle className="mb-2" style={{fontSize:"22px", fontWeight:"400"}}>Pendirian PT Kecil</Card.Subtitle>
                   
-                  <hr size="1" className={styles.hr1} />
-                  <Row>
-                    <Col md={2} style={{ textAlign: "right" }}>
-                      <Image src={ceklis} alt="Check" width={24} height={24}/>
-                    </Col>
-                    <Col>
-                    <p style={{textAlign:"left"}}>Akta Perseroan dari Notaris</p>
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col md={2} style={{ textAlign: "right" }}>
-                      <Image src={ceklis} alt="Check" width={24} height={24}/>
-                    </Col>
-                    <Col>
-                    <p style={{textAlign:"left"}}>Akta Perseroan dari Notaris</p>
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col md={2} style={{ textAlign: "right" }}>
-                      <Image src={ceklis} alt="Check" width={24} height={24}/>
-                    </Col>
-                    <Col>
-                    <p style={{textAlign:"left"}}>Akta Perseroan dari Notaris</p>
-                    </Col>
-                  </Row>
-
-                  <Card.Link href="#">Hubungi Kami</Card.Link>
+                  <hr size="1" className={styles.hrCard}/>
+                      <Row  style={{ textAlign: "right", fontSize:"14px", fontWeight:"400", marginBottom:"-25px", marginLeft:"auto", marginRight:"auto"}}> 
+                        <Col md={2}>
+                          <Image src={ceklis} alt="ceklis" width={24} height={24}/>
+                          {/* <Ceklis className={styles.iconColorCard}/> */}
+                        </Col>
+                        <Col md={10}>
+                        <p style={{textAlign:"left"}}>Akta Perseroan dari Notaris</p>
+                        </Col>
+                      </Row>
+                      <Row  style={{ textAlign: "right", fontSize:"14px", fontWeight:"400", marginBottom:"-25px", marginLeft:"auto", marginRight:"auto"}}> 
+                        <Col md={2}>
+                          <Image src={ceklis} alt="ceklis" width={24} height={24}/>
+                          {/* <Ceklis className={styles.iconColorCard}/> */}
+                        </Col>
+                        <Col md={10}>
+                        <p style={{textAlign:"left"}}>Akta Perseroan dari Notaris</p>
+                        </Col>
+                      </Row>
+                      <Row  style={{ textAlign: "right", fontSize:"14px", fontWeight:"400", marginLeft:"auto", marginRight:"auto"}}> 
+                        <Col md={2}>
+                          <Image src={ceklis} alt="ceklis" width={24} height={24}/>
+                          {/* <Ceklis className={styles.iconColorCard}/> */}
+                        </Col>
+                        <Col md={10}>
+                        <p style={{textAlign:"left"}}>Akta Perseroan dari Notaris</p>
+                        </Col>
+                      </Row>
+                    
+                  <Button className="align-self-end" style={{color:"#1C04FC", backgroundColor:"white", border:"0", borderRadius:"15px", width:"160px", height:"58px", fontWeight:"600", fontSize:"15px", verticalAlign:"center", marginLeft:"auto", marginRight:"auto"}}>
+                    Hubungi Kami
+                    </Button>
+                </Row>
                 </Card.Body>
               </Card>
             </Col>
