@@ -25,7 +25,7 @@ src: url('../../assets/Font/Poppins-Bold.ttf'); }
 
 .row1 {
   padding-top: 35px;
-  padding-bottom: 150px;
+  padding-bottom: 300px;
   padding-left: 110px;
   padding-right: 110px;
 }
@@ -51,7 +51,7 @@ src: url('../../assets/Font/Poppins-Bold.ttf'); }
 }
 
 .h3{
-font-size: 20px;
+font-size: 18px;
 font-weight: 300;
 line-height: 30px;
 font-family:  poppins-light;
@@ -136,6 +136,7 @@ font-family:  poppins-light;
     vertical-align:center; 
     margin-left:auto; 
     margin-right:auto;
+    font-family:  poppins-semibold;
   }
 }
 

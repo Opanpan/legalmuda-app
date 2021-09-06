@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "./Legalitas.module.scss";
 import { Col, Container, Row, Card, Button,ListGroup, ListGroupItem } from "react-bootstrap";
 import Image from "next/image";
-import legalitas from "../../assets/img/legalitas.png";
+import Legalitas from "../../assets/img/legalitas.svg";
 
 import Ceklis from "../../assets/img/ceklis2.svg";
 import { useRouter } from "next/router";
@@ -20,9 +20,9 @@ export default function Home() {
   <Header pageName={pageName} />
   
     <Container className={styles.container}>
-      <Row className={styles.row1}
-      >
-        <Col md={5} className={styles.col}>
+      <Row className={styles.row1}>
+        <Row style={{position:"relative", height:"200px"}}>
+        <div style={{position:"absolute", width:"500px"}}>
           <h1 className={styles.h1}>
             Legalitas <span style={{ color: "blue" }}>Usaha</span>
           </h1><br></br>
@@ -34,11 +34,14 @@ export default function Home() {
             Dalam pembuatan legalitas usaha baik dalam bentuk PT / CV / PMA /
             Koperasi / Yayasan / Perkumpulan / Firma.
           </h3>
-        </Col>
-        <Col md={7} style={{ textAlign: "right" }}>
-          <Image src={legalitas} alt="Contract" width={755} height={468} />
-          {/* <Legalitas width={500} height={468}/> */}
-        </Col>
+        </div>
+          <div style={{ position:"absolute" , width:"755px", left:"430",top:"-45px", float:"right"}}>
+          {/* <Col md={7} style={{ textAlign: "right" }}> */}
+          {/* <Image src={legalitas} alt="Contract" width={755} height={468} /> */}
+            <Legalitas width={755} height={468}/>
+          {/* </Col> */}
+          </div>
+        </Row>
       </Row>
       <Row style={{ backgroundColor: "#e4eefc", height: "2000px"}}>
 
