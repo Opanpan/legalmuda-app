@@ -17,6 +17,7 @@
     "sass": "^1.39.0"
   },
   "devDependencies": {
+    "babel-plugin-inline-react-svg": "^2.0.1",
     "babel-plugin-transform-remove-console": "^6.9.4"
   }
 }

@@ -1,5 +1,26 @@
+@font-face { font-family: poppins-regular; 
+  src: url('../../assets/Font/Poppins-Regular.ttf'); } 
+
+@font-face { font-family: poppins-semibold; 
+src: url('../../assets/Font/Poppins-SemiBold.ttf'); } 
+
+@font-face { font-family: poppins-bold; 
+src: url('../../assets/Font/Poppins-Bold.ttf'); } 
+
+@font-face { font-family: poppins-light; 
+  src: url('../../assets/Font/Poppins-Light.ttf'); } 
+
+  
+.fontBold{
+  font-family:  poppins-bold;
+}
+.fontLight{
+  font-family:  poppins-light;
+}
+
 .container {
   max-width: 1440px;
+  font-family:  poppins-regular;
 }
 
 .row1 {
@@ -11,12 +32,13 @@
 
 .col {
   justify-content: center;
-  margin-top: 100px; 
+  margin-top: 75px; 
 }
 
 .h1{
-  font-size: 61px;
+  font-size: 64px;
   font-weight: 700;
+  font-family:  poppins-semibold;
 }
 
 
@@ -25,20 +47,24 @@
   font-weight: 700;
   padding-top: 60px;
   padding-bottom: 10px;
+  font-family:  poppins-bold;
 }
 
 .h3{
-font-size: 22px;
+font-size: 20px;
 font-weight: 300;
+line-height: 30px;
+font-family:  poppins-light;
 }
 
 .h4 {
   font-size: 16px;
   font-weight: 300;
-  font-style: normal;
   padding-top: 5px;
   align-items: center;
+  font-family:  poppins-light;
 }
+
 
 .card{
   width: 308px;
@@ -47,8 +73,152 @@ font-weight: 300;
   margin-right:auto;
   border-radius: 15px;
   box-shadow: 0 3px 15px rgb(0 0 0 / 0.2);
+  color: #5F5F5F;
+  background: white;
+  .titleCard{
+    padding-top:28px;
+    margin-bottom:10px;
+    font-size:24px;
+    font-weight:700;
+    color: black;
+  }
+  .subtitleCard{
+    font-size:22px; 
+    font-weight:400; 
+    height:20px; 
+    top:80px;
+    margin-bottom: 20px;
+  }
+  .hrCard {
+    width: 228px;
+    height: 3px;
+    color: rgb(0, 0, 0) !important;
+    background-color: #5F5F5F !important;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+    margin-top: 5px;
+  }
+  .iconColorCard{
+    path{
+      fill: #5F5F5F;
+    }
+  }
+  .listItem{
+    width:300px;
+     background-color:transparent;
+     height:30px;
+     color:black;
+     border:0;
+     text-align: right;
+     font-size:14px;
+     font-weight:400;
+     right: 8px;
+     .rowItem{
+      text-align: right; 
+      font-size:14px;
+      font-weight:400;
+      margin-left:auto; 
+      margin-right:auto;
+     }
+    //  margin-left:auto;
+    //  marginRight:auto
+  }
+  .buttonCard{
+    color:#1C04FC;
+    background-color:#E2E7FF;
+    border:0;
+    border-radius:15px;
+    width:160px;
+    height:58px; 
+    font-weight:600; 
+    font-size:15px;
+    vertical-align:center; 
+    margin-left:auto; 
+    margin-right:auto;
+  }
+}
+
+.card:hover{
+  width: 308px;
+  height: 444px;
+  margin-left:auto;
+  margin-right:auto;
+  bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 0 3px 15px rgb(0 0 0 / 0.8);
   color: white;
   background: linear-gradient(#1C04FC, #0F0663);
+  .titleCard{
+    padding-top:28px;
+    margin-bottom:10px;
+    font-size:24px;
+    font-weight:700;
+    color: white;
+  }
+  .subtitleCard{
+    font-size:22px; 
+    font-weight:400; 
+    height:20px; 
+    top:80px;
+    margin-bottom: 20px;
+  }
+  .hrCard {
+    width: 228px;
+    height: 3px;
+    color: rgb(0, 0, 0) !important;
+    background-color: white !important;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+    margin-top: 5px;
+  }
+  .iconColorCard{
+    path{
+      fill: white;
+    }
+  }
+  .listItem{
+    width:300px;
+     background-color:transparent;
+     height:30px;
+     color:white;
+     border:0;
+     text-align: right;
+     font-size:14px;
+     font-weight:400;
+     .rowItem{
+      text-align: right; 
+      font-size:14px;
+      font-weight:400;
+      margin-left:auto; 
+      margin-right:auto;
+     }
+    //  margin-left:auto;
+    //  marginRight:auto
+  }
+  .buttonCard{
+    color:#1C04FC;
+    background-color:white;
+    border:0;
+    border-radius:15px;
+    width:160px;
+    height:58px; 
+    font-weight:600; 
+    font-size:15px;
+    vertical-align:center; 
+    margin-left:auto; 
+    margin-right:auto;
+  }
+}
+
+
+
+
+.iconColorCardAwal{
+  path{
+    fill: black;
+  }
 }
 
 .hr1 {
@@ -61,15 +231,16 @@ font-weight: 300;
   margin-top: 5px;
 }
 
-.hrCard {
-  width: 228px;
-  height: 3px;
-  color: rgb(0, 0, 0) !important;
-  background-color: white !important;
-  margin: auto;
-  opacity: 1;
-  margin-top: 5px;
+
+
+
+.cardSvg{
+  background-image: url(/);
 }
+
+
+
+
 
 
 
