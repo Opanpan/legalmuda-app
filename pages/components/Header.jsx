@@ -12,6 +12,8 @@ export default function Header(props) {
     setIsClick(`${styles.navbarClicked}`);
   }, []);
 
+  const [scrollPosition, setScrollPosition] = useState(0);
+
   const hoverHeader = (e) => {
     console.log(e.target.id);
     if (e.target.id !== props.pageName) {
@@ -24,10 +26,29 @@ export default function Header(props) {
     setIsClick(`${styles.navbarClicked}`);
   };
 
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollPosition(position);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <Container fluid className={`p-0 ${styles.navbarPosition}`}>
-      <nav className="navbar navbar-expand-lg">
-        <div className={`${styles.navbarRRQ} ${styles.red} `}>
+    <Container fluid className={`p-0 ${styles.navbarPosition} `}>
+      <nav
+        className={`navbar navbar-expand-lg ${
+          scrollPosition > 0
+            ? styles.navbarBackgroundScroll
+            : styles.navbarBackground
+        } `}
+      >
+        <div className={`${styles.navbarLegal} `}>
           <Link href="/">
             <a
               id="/"
@@ -38,16 +59,6 @@ export default function Header(props) {
               Home
             </a>
           </Link>
-          <Link href="/artikel">
-            <a
-              id="/artikel"
-              onMouseEnter={hoverHeader}
-              onMouseLeave={unHoveHeader}
-              className={getId === "/artikel" ? isClick : ""}
-            >
-              Artikel
-            </a>
-          </Link>
           <Link href="/legalitas">
             <a
               id="/legalitas"
@@ -55,7 +66,27 @@ export default function Header(props) {
               onMouseLeave={unHoveHeader}
               className={getId === "/legalitas" ? isClick : ""}
             >
-              Legal Muda Services
+              Legalitas
+            </a>
+          </Link>
+          <Link href="/virtual-office">
+            <a
+              id="/virtual-office"
+              onMouseEnter={hoverHeader}
+              onMouseLeave={unHoveHeader}
+              className={getId === "/virtual-office" ? isClick : ""}
+            >
+              Virtual Office
+            </a>
+          </Link>
+          <Link href="/branding-usaha">
+            <a
+              id="/branding-usaha"
+              onMouseEnter={hoverHeader}
+              onMouseLeave={unHoveHeader}
+              className={getId === "/branding-usaha" ? isClick : ""}
+            >
+              Branding Usaha
             </a>
           </Link>
         </div>
