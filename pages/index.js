@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import React, { useState, useEffect } from "react";
 import styles from "./Index.module.scss";
 import Header from "./components/Header";
 import { useRouter } from "next/router";
@@ -12,17 +11,6 @@ import Image from "next/image";
 export default function Home() {
   const router = useRouter();
   const pageName = router.pathname;
-
-  const [isDesktop, setIsDesktop] = useState();
-
-  const updateMedia = () => {
-    setIsDesktop(window.innerWidth >= 768);
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", updateMedia, { passive: true });
-    return () => window.removeEventListener("resize", updateMedia);
-  }, []);
 
   return (
     <>
