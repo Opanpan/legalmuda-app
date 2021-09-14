@@ -1,12 +1,16 @@
 import Head from "next/head";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col, Button, Form } from "react-bootstrap";
 import styles from "./Index.module.scss";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import { useRouter } from "next/router";
 import HomeImagePNG from "../assets/img/Legalitas.png";
 import ProductCard from "./components/ProductCard";
 import DataProduct from "../data/dataProduk";
 import Image from "next/image";
+import Reliability from "../assets/img/reliability 1.svg";
+import Pricing from "../assets/img/pricing 1.svg";
+import Professional from "../assets/img/professional 1.svg";
 
 export default function Home() {
   const router = useRouter();
@@ -134,7 +138,163 @@ export default function Home() {
             })}
           </Row>
         </Row>
+        <Row className="d-flex justify-content-center">
+          <Col className="col-auto p-0">
+            <div
+              className={`${styles.kenapaLegalMuda} d-flex justify-content-center`}
+            >
+              <div>
+                <Col className="col-auto p-0">
+                  <div className={styles.kenapaLegalMudaTittle}>
+                    <h3 className="fontMedium" style={{ textAlign: "center" }}>
+                      <span style={{ color: "#1C04FC" }}>
+                        Kenapa Harus LegalMuda.com
+                      </span>
+                    </h3>
+                    <h2 className="fontBold" style={{ textAlign: "center" }}>
+                      Legalitas Mudah Anti Ribet
+                    </h2>
+                  </div>
+                  <Container style={{ marginTop: "50px" }}>
+                    <Row>
+                      <Col className="col-auto">
+                        <Reliability />
+                      </Col>
+                      <Col>
+                        <h3 className="fontMedium">
+                          <span style={{ color: "#1C04FC" }}>
+                            Tercepat dan Terpercaya
+                          </span>
+                        </h3>
+                        <div className={styles.kenapaLegalMudaItem}>
+                          <h4>
+                            Kami mampu mendirikan usaha anda hanya dalam waktu 2
+                            Hari kerja dari waktu penanda tanganan Akta selesai
+                            anda lakukan.
+                          </h4>
+                        </div>
+                      </Col>
+                    </Row>
+                  </Container>
+                  <Container style={{ marginTop: "50px" }}>
+                    <Row>
+                      <Col className="col-auto">
+                        <Pricing />
+                      </Col>
+                      <Col>
+                        <h3 className="fontMedium">
+                          <span style={{ color: "#1C04FC" }}>
+                            Harga Terjangkau
+                          </span>
+                        </h3>
+                        <div className={styles.kenapaLegalMudaItem}>
+                          <h4>
+                            Kami mampu mendirikan usaha anda hanya dalam waktu 2
+                            Hari kerja dari waktu penanda tanganan Akta selesai
+                            anda lakukan.
+                          </h4>
+                        </div>
+                      </Col>
+                    </Row>
+                  </Container>
+                  <Container style={{ marginTop: "50px" }}>
+                    <Row>
+                      <Col className="col-auto">
+                        <Professional />
+                      </Col>
+                      <Col>
+                        <h3 className="fontMedium">
+                          <span style={{ color: "#1C04FC" }}>Profesional</span>
+                        </h3>
+                        <div className={styles.kenapaLegalMudaItem}>
+                          <h4>
+                            Kami mampu mendirikan usaha anda hanya dalam waktu 2
+                            Hari kerja dari waktu penanda tanganan Akta selesai
+                            anda lakukan.
+                          </h4>
+                        </div>
+                      </Col>
+                    </Row>
+                  </Container>
+                </Col>
+              </div>
+            </div>
+          </Col>
+          <Col className="col-auto p-0">
+            <div
+              className={`${styles.konsultasiLegalMuda} d-flex justify-content-center`}
+            >
+              <Col>
+                <div className={styles.konsultasiLegalMudaTittle}>
+                  <h2
+                    className="fontBold"
+                    style={{ textAlign: "center", color: "white" }}
+                  >
+                    Konsultasi Gratis
+                  </h2>
+                  <h4
+                    style={{
+                      textAlign: "center",
+                      color: "white",
+                      marginTop: "30px",
+                    }}
+                  >
+                    Konsultasikan perizinan dan legalitas perusahaan anda dengan
+                    kami tanpa biaya sedikitpun, kapanpun, dan dimanapun.
+                  </h4>
+                </div>
+                <div>
+                  <Container>
+                    <Row>
+                      <Col className="d-flex justify-content-center">
+                        <Form className={styles.formContainer}>
+                          <Form.Group
+                            className={styles.formBox}
+                            controlId="exampleForm.ControlInput1"
+                          >
+                            <Form.Control
+                              type="email"
+                              placeholder="Email"
+                              className={styles.formInput}
+                            />
+                          </Form.Group>
+                          <Form.Group
+                            className={styles.formBox}
+                            controlId="exampleForm.ControlInput1"
+                          >
+                            <Form.Control
+                              type="text"
+                              placeholder="Fullname"
+                              className={styles.formInput}
+                            />
+                          </Form.Group>
+                          <Form.Group
+                            className={styles.formBox}
+                            controlId="exampleForm.ControlInput1"
+                          >
+                            <Form.Control
+                              type="text"
+                              placeholder="Subject"
+                              className={styles.formInput}
+                            />
+                          </Form.Group>
+                          <Button
+                            className={`${styles.btnSubmit}`}
+                            bsPrefix="super-btn"
+                          >
+                            Submit
+                          </Button>
+                        </Form>
+                      </Col>
+                    </Row>
+                  </Container>
+                </div>
+              </Col>
+            </div>
+          </Col>
+        </Row>
       </Container>
+      <Footer />
     </>
   );
 }
