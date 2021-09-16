@@ -1,0 +1,55 @@
+[
+  {
+    "Nama": "Bronze",
+    "Harga": "IDR 3 JT",
+    "Color": "#c45f00",
+    "PacketItems": [
+      { "item": "Alamat Kantor" },
+      { "item": "Free Domisili Gedung" },
+      { "item": "Resepsionis Servis" },
+      { "item": "Fasilitas Surat Menyurat" },
+      { "item": "Share Phone Number" },
+      { "item": "Line Fax Sharing" },
+      { "item": "Mail Handling" },
+      { "item": "Mail Notifikasi" },
+      { "item": "Free WIFI, Tea, Coffe, Air Mineral" },
+      { "item": "Line Fax Sharing" }
+    ]
+  },
+  {
+    "Nama": "Silver",
+    "Harga": "IDR 3.5 JT",
+    "Color": "#d4d4d4",
+    "PacketItems": [
+      { "item": "Alamat Kantor" },
+      { "item": "Free Domisili Gedung" },
+      { "item": "Resepsionis Servis" },
+      { "item": "Fasilitas Surat Menyurat" },
+      { "item": "Share Phone Number" },
+      { "item": "Line Fax Sharing" },
+      { "item": "Mail Handling" },
+      { "item": "Mail Notifikasi" },
+      { "item": "Free WIFI, Tea, Coffe, Air Mineral" },
+      { "item": "Line Fax Sharing" },
+      { "item": "Fasilitas Ruang Meeting 3 Jam/Bulan" }
+    ]
+  },
+  {
+    "Nama": "Gold",
+    "Harga": "IDR 4 JT",
+    "Color": "#ffd412",
+    "PacketItems": [
+      { "item": "Alamat Kantor" },
+      { "item": "Free Domisili Gedung" },
+      { "item": "Resepsionis Servis" },
+      { "item": "Fasilitas Surat Menyurat" },
+      { "item": "Share Phone Number" },
+      { "item": "Line Fax Sharing" },
+      { "item": "Mail Handling" },
+      { "item": "Mail Notifikasi" },
+      { "item": "Free WIFI, Tea, Coffe, Air Mineral" },
+      { "item": "Line Fax Sharing" },
+      { "item": "Fasilitas Ruang Meeting 5 Jam/Bulan" }
+    ]
+  }
+]

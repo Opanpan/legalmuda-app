@@ -1,0 +1,29 @@
+[
+  {
+    "Nama": "Gold",
+    "Harga": "IDR 1.5 JT",
+    "Color": "#ffd412",
+    "PacketItems": [
+      { "item": "Design Company Profile (Free Revisi 3x)" },
+      { "item": "Design Logo (Free Revisi 3x)" },
+      { "item": "Design Kop Surat (Free Revisi 3x)" },
+      { "item": "Design Kartu Nama (Free Revisi 3x)" },
+      { "item": "Stempel Perusahaan" }
+    ]
+  },
+  {
+    "Nama": "Platinum",
+    "Harga": "IDR 3.5 JT",
+    "Color": "#e5e4e2",
+    "PacketItems": [
+      { "item": "Design Website" },
+      { "item": "Hosting Website 1 Tahun" },
+      { "item": "Support Website Setelah Live 1 Bulan" },
+      { "item": "Design Company Profile (Free Revisi 3x)" },
+      { "item": "Design Logo (Free Revisi 3x)" },
+      { "item": "Design Kop Surat (Free Revisi 3x)" },
+      { "item": "Design Kartu Nama (Free Revisi 3x)" },
+      { "item": "Stempel Perusahaan" }
+    ]
+  }
+]
