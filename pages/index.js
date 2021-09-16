@@ -1,11 +1,11 @@
 import Head from "next/head";
 import { Container, Row, Col, Button, Form } from "react-bootstrap";
 import styles from "./Index.module.scss";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import { useRouter } from "next/router";
 import HomeImagePNG from "../assets/img/Legalitas.png";
-import ProductCard from "./components/ProductCard";
+import ProductCard from "../components/ProductCard";
 import DataProduct from "../data/dataProduk";
 import Image from "next/image";
 import Reliability from "../assets/img/reliability 1.svg";

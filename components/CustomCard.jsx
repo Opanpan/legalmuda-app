@@ -1,5 +1,5 @@
 import { Col, Row, Button, Card } from "react-bootstrap";
-import Ceklis from "../../assets/img/ceklis.svg";
+import Ceklis from "../assets/img/ceklis.svg";
 import styles from "./CustomCard.module.scss";
 
 export default function CustomCard(props) {

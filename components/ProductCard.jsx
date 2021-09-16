@@ -1,6 +1,6 @@
 import styles from "./ProductCard.module.scss";
 import { Row, Col } from "react-bootstrap";
-import Arrow from "../../assets/img/arrow-card.svg";
+import Arrow from "../assets/img/arrow-card.svg";
 import Link from "next/link";
 
 export default function ProductCard(props) {

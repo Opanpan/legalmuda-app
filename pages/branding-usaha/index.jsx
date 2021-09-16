@@ -3,9 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
 import Branding from "../../assets/img/Page Branding Usaha 1.png";
 import { useRouter } from "next/router";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import CustomCard from "../components/CustomCard";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import CustomCard from "../../components/CustomCard";
 import DataProductBranding from "../../data/dataProdukBranding.json";
 
 export default function Home() {

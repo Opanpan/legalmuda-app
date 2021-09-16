@@ -3,9 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
 import Legalitas from "../../assets/img/Page Legalitas 1.png";
 import { useRouter } from "next/router";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import CustomCard from "../components/CustomCard";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import CustomCard from "../../components/CustomCard";
 import DataProductLegalitas from "../../data/dataProdukLegalitas.json";
 
 export default function Home() {

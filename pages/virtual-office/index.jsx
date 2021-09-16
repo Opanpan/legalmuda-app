@@ -3,9 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
 import VirtualOfficeImage from "../../assets/img/Page Virtual Office 1.png";
 import { useRouter } from "next/router";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import CustomCard from "../components/CustomCard";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import CustomCard from "../../components/CustomCard";
 import DataProductVirtualOffice from "../../data/dataProdukVirtualOffice.json";
 
 export default function VirtualOffice() {
