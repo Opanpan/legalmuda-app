@@ -28,7 +28,7 @@ export default function Home() {
         {/* ------------------------ FIRST CONTENT ------------------------ */}
         <Row className="d-flex justify-content-center">
           <Col className="col-auto">
-            <div className="firstLeftContent">
+            <div className="firstLeftContentHome">
               <h1>
                 Bikin Perusahaan Impianmu Dalam{" "}
                 <span style={{ color: "#1800FC" }}>2 Hari</span>
@@ -52,12 +52,14 @@ export default function Home() {
                 style={{ marginTop: "20px" }}
               >
                 <Col className="col-auto">
-                  <Button
-                    className={`${styles.btnKonsultasi}`}
-                    bsPrefix="super-btn"
-                  >
-                    Free Konsultasi
-                  </Button>
+                  <a href="#konsultasi">
+                    <Button
+                      className={`${styles.btnKonsultasi}`}
+                      bsPrefix="super-btn"
+                    >
+                      Free Konsultasi
+                    </Button>
+                  </a>
                 </Col>
                 <Col>
                   <Row className="d-flex align-items-center">
@@ -140,7 +142,7 @@ export default function Home() {
             })}
           </Row>
         </Row>
-        <Row className="d-flex justify-content-center">
+        <Row id="konsultasi" className="d-flex justify-content-center">
           <Col className="col-auto p-0">
             <div
               className={`${styles.kenapaLegalMuda} d-flex justify-content-center`}

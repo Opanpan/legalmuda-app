@@ -2,6 +2,7 @@ import styles from "./ProductCard.module.scss";
 import { Row, Col } from "react-bootstrap";
 import Arrow from "../assets/img/arrow-card.svg";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ProductCard(props) {
   return (
@@ -12,7 +13,7 @@ export default function ProductCard(props) {
         <div>
           <Row>
             <Col className="d-flex align-items-center justify-content-center">
-              {props.img}
+              <Image src={props.img} />
             </Col>
           </Row>
           <Row

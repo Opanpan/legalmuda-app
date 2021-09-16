@@ -23,8 +23,8 @@ export default function VirtualOffice() {
       <Container fluid className="pageContainer">
         {/* ------------------------ FIRST CONTENT ------------------------ */}
         <Row className="d-flex justify-content-center">
-          <Col className="col-auto">
-            <div className="firstLeftContent align-self-center">
+          <Col className="col-auto align-self-center">
+            <div className="firstLeftContent">
               <h1>
                 Virtual <span style={{ color: "blue" }}>Office</span>
               </h1>
