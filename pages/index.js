@@ -136,6 +136,7 @@ export default function Home() {
                   id={item.id}
                   tittle={item.tittle}
                   img={item.img}
+                  alt={item.alt}
                   link={item.link}
                 />
               );

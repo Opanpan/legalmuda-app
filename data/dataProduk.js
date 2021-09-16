@@ -8,18 +8,21 @@ const dataProduk = [
     tittle: "Legalitas Usaha",
     img: Legalitas,
     link: "/legalitas",
+    alt: "Legalitas Image",
   },
   {
     id: 2,
     tittle: "Virtual Office",
     img: VirtualOffice,
     link: "/virtual-office",
+    alt: "Virtual Office Image",
   },
   {
     id: 3,
     tittle: "Branding Usaha",
     img: Branding,
     link: "/branding-usaha",
+    alt: "Branding Usaha Image",
   },
 ];
 
