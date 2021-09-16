@@ -53,3 +53,74 @@ h4 {
     font-size: 12px;
   }
 }
+
+.pageContainer {
+  margin-top: 50px;
+
+  .firstLeftContent {
+    @media screen and (min-width: 768px) {
+      width: 585px;
+    }
+    @media screen and (min-width: 1024px) {
+      width: 90vw;
+    }
+    @media screen and (min-width: 1439px) {
+      width: 585px;
+    }
+  }
+
+  .firstRightContent {
+    @media screen and (max-width: 1439px) {
+      position: absolute;
+      z-index: -99;
+      opacity: 0.1;
+    }
+    @media screen and (max-width: 768px) {
+      position: absolute;
+      z-index: -99;
+      opacity: 0.1;
+    }
+  }
+
+  .secondContentHome {
+    margin-top: 144px;
+
+    @media screen and (max-width: 425px) {
+      margin-top: 50px;
+    }
+  }
+
+  .secondContent {
+    padding-bottom: 100px;
+    margin-top: 344px;
+    background-color: #e4eefc;
+
+    @media screen and (max-width: 425px) {
+      margin-top: 50px;
+    }
+  }
+
+  .line {
+    margin: auto;
+    width: 228px;
+    height: 3px;
+    background-color: black;
+    opacity: 1;
+    margin-top: 20px;
+  }
+}
+
+.imagePageContainer {
+  position: absolute;
+  width: 755px;
+  left: 600px;
+  float: right;
+
+  @media screen and (max-width: 766px) {
+    display: none;
+  }
+
+  @media screen and (max-width: 1024px) {
+    position: absolute;
+  }
+}

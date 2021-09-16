@@ -24,10 +24,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header pageName={pageName} />
-      <Container fluid className={`${styles.title}`}>
+      <Container fluid className="pageContainer">
+        {/* ------------------------ FIRST CONTENT ------------------------ */}
         <Row className="d-flex justify-content-center">
           <Col className="col-auto">
-            <div className={styles.firstContent}>
+            <div className="firstLeftContent">
               <h1>
                 Bikin Perusahaan Impianmu Dalam{" "}
                 <span style={{ color: "#1800FC" }}>2 Hari</span>
@@ -95,12 +96,13 @@ export default function Home() {
               </Row>
             </div>
           </Col>
-          <Col className={`col-auto ${styles.imageContainer}`}>
+          <Col className="col-auto firstRightContent">
             <Image src={HomeImagePNG} />
           </Col>
+          {/* ------------------------ FIRST CONTENT ------------------------ */}
         </Row>
         <Row
-          className={`d-flex justify-content-center ${styles.secondContent}`}
+          className="d-flex justify-content-center secondContentHome"
           id="produk"
         >
           <Col className="d-flex justify-content-center">
