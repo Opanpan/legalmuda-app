@@ -1,12 +1,12 @@
 import Head from "next/head";
 import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
-import Legalitas from "../../assets/img/Page Legalitas 1.png";
+import Branding from "../../assets/img/Page Branding Usaha 1.png";
 import { useRouter } from "next/router";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import CustomCard from "../components/CustomCard";
-import DataProductLegalitas from "../../data/dataProdukLegalitas.json";
+import DataProductBranding from "../../data/dataProdukBranding.json";
 
 export default function Home() {
   const router = useRouter();
@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Legal Muda. Legalitas Usaha</title>
-        <meta name="description" content="Legalitas Usaha" />
+        <title>Legal Muda. Branding Usaha</title>
+        <meta name="description" content="Branding Usaha" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header pageName={pageName} />
@@ -26,21 +26,17 @@ export default function Home() {
           <Col className="col-auto">
             <div className="firstLeftContent align-self-center">
               <h1>
-                Legalitas <span style={{ color: "blue" }}>Usaha</span>
+                Branding <span style={{ color: "blue" }}>Usaha</span>
               </h1>
               <br></br>
               <h3>
-                Pelayanan{" "}
-                <span className="fontBold">
-                  Tercepat, Terbaik, dan Terpercaya{" "}
-                </span>
-                Dalam pembuatan legalitas usaha baik dalam bentuk PT / CV / PMA
-                / Koperasi / Yayasan / Perkumpulan / Firma.
+                Siapkan <span className="fontBold">Kebutuhan Utama </span>
+                perusahaan anda, untuk memasuki era digital serba cepat.
               </h3>
             </div>
           </Col>
           <Col className="col-auto firstRightContent">
-            <Image src={Legalitas} alt="Legalitas Image" />
+            <Image src={Branding} alt="Branding Usaha Image" />
           </Col>
         </Row>
         {/* ------------------------ FIRST CONTENT ------------------------ */}
@@ -62,7 +58,7 @@ export default function Home() {
             </Col>
           </Row>
           <Row className="d-flex justify-content-center">
-            {DataProductLegalitas.map((item, i) => {
+            {DataProductBranding.map((item, i) => {
               return (
                 <CustomCard
                   key={i}
