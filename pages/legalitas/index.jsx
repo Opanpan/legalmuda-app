@@ -73,6 +73,7 @@ export default function Home() {
                   name={item.Nama}
                   color={item.Color}
                   price={item.Harga}
+                  text={item.Text}
                   packetItem={item.PacketItems}
                 />
               );

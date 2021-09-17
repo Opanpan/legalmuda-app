@@ -1,8 +1,10 @@
 import { Col, Row, Button, Card } from "react-bootstrap";
 import Ceklis from "../assets/img/ceklis.svg";
 import styles from "./CustomCard.module.scss";
+import urlencode from "urlencode";
 
 export default function CustomCard(props) {
+  const text = urlencode(`${props.text}`, "gbk");
   return (
     <Card className={`${styles.customCard} mx-5`}>
       <Card.Body>
@@ -28,9 +30,11 @@ export default function CustomCard(props) {
         style={{ backgroundColor: "none" }}
         className={`d-flex justify-content-center ${styles.footerCard}`}
       >
-        <Button bsPrefix="super-btn" className={styles.btnContactUs}>
-          Hubungi Kami
-        </Button>
+        <a href={`https://wa.me/6285155113647?text=${text}`}>
+          <Button bsPrefix="super-btn" className={styles.btnContactUs}>
+            Hubungi Kami
+          </Button>
+        </a>
       </div>
     </Card>
   );

@@ -73,6 +73,7 @@ export default function VirtualOffice() {
                   color={item.Color}
                   name={item.Nama}
                   price={item.Harga}
+                  text={item.Text}
                   packetItem={item.PacketItems}
                 />
               );
