@@ -2,6 +2,7 @@
   {
     "Nama": "Bronze",
     "Harga": "IDR 3 JT",
+    "Text": "Saya mau menanyakan Virtual Office dengan paket Bronze",
     "Color": "#c45f00",
     "PacketItems": [
       { "item": "Alamat Kantor" },
@@ -19,6 +20,7 @@
   {
     "Nama": "Silver",
     "Harga": "IDR 3.5 JT",
+    "Text": "Saya mau menanyakan Virtual Office dengan paket Silver",
     "Color": "#d4d4d4",
     "PacketItems": [
       { "item": "Alamat Kantor" },
@@ -37,6 +39,7 @@
   {
     "Nama": "Gold",
     "Harga": "IDR 4 JT",
+    "Text": "Saya mau menanyakan Virtual Office dengan paket Bronze",
     "Color": "#ffd412",
     "PacketItems": [
       { "item": "Alamat Kantor" },

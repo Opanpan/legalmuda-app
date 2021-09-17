@@ -2,6 +2,7 @@
   {
     "Nama": "PT Bronze",
     "Harga": "IDR 6 JT",
+    "Text": "Saya mau menanyakan legalitas PT dengan paket Bronze",
     "Color": "#c45f00",
     "PacketItems": [
       { "item": "Pengecekan Nama PT" },
@@ -17,6 +18,7 @@
   {
     "Nama": "PT Silver",
     "Harga": "IDR 7.5 JT",
+    "Text": "Saya mau menanyakan legalitas PT dengan paket Silver",
     "Color": "#d4d4d4",
     "PacketItems": [
       { "item": "Pengecekan Nama PT" },
@@ -35,6 +37,7 @@
   {
     "Nama": "PT Gold",
     "Harga": "IDR 9 JT",
+    "Text": "Saya mau menanyakan legalitas PT dengan paket Gold",
     "Color": "#ffd412",
     "PacketItems": [
       { "item": "Pengecekan Nama PT" },
@@ -56,6 +59,7 @@
   {
     "Nama": "CV Bronze",
     "Harga": "IDR 5.5 JT",
+    "Text": "Saya mau menanyakan legalitas CV dengan paket Bronze",
     "Color": "#c45f00",
     "PacketItems": [
       { "item": "Pengecekan Nama CV" },
@@ -71,6 +75,7 @@
   {
     "Nama": "CV Silver",
     "Harga": "IDR 6.5 JT",
+    "Text": "Saya mau menanyakan legalitas CV dengan paket Silver",
     "Color": "#d4d4d4",
     "PacketItems": [
       { "item": "Pengecekan Nama CV" },
@@ -89,6 +94,7 @@
   {
     "Nama": "CV Gold",
     "Harga": "IDR 8.5 JT",
+    "Text": "Saya mau menanyakan legalitas CV dengan paket Gold",
     "Color": "#ffd412",
     "PacketItems": [
       { "item": "Pengecekan Nama CV" },

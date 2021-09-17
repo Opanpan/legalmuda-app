@@ -2,6 +2,7 @@
   {
     "Nama": "Gold",
     "Harga": "IDR 1.5 JT",
+    "Text": "Saya mau menanyakan Branding Usaha dengan paket Gold",
     "Color": "#ffd412",
     "PacketItems": [
       { "item": "Design Company Profile (Free Revisi 3x)" },
@@ -14,6 +15,7 @@
   {
     "Nama": "Platinum",
     "Harga": "IDR 3.5 JT",
+    "Text": "Saya mau menanyakan Branding Usaha dengan paket Platinum",
     "Color": "#e5e4e2",
     "PacketItems": [
       { "item": "Design Website" },
