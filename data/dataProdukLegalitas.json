@@ -52,5 +52,59 @@
       { "item": "Design Logo, Kop Surat, Dan Kartu Nama (Free Revisi 3x)" },
       { "item": "Stempel Perusahaan" }
     ]
+  },
+  {
+    "Nama": "CV Bronze",
+    "Harga": "IDR 5.5 JT",
+    "Color": "#c45f00",
+    "PacketItems": [
+      { "item": "Pengecekan Nama CV" },
+      { "item": "Akta Perseroan  dari Notaris" },
+      { "item": "SK dari Kementerian Hukum dan Hak Azasi Manusia" },
+      { "item": "Nomor Pokok Wajib Pajak (NPWP)" },
+      {
+        "item": "Surat Keterangan Terdaftar di Kantor Pelayanan Pajak (SKT KPP)"
+      },
+      { "item": "NIB (Nomor Induk Berusaha)/Izin Usaha" }
+    ]
+  },
+  {
+    "Nama": "CV Silver",
+    "Harga": "IDR 6.5 JT",
+    "Color": "#d4d4d4",
+    "PacketItems": [
+      { "item": "Pengecekan Nama CV" },
+      { "item": "Akta Perseroan  dari Notaris" },
+      { "item": "SK dari Kementerian Hukum dan Hak Azasi Manusia" },
+      { "item": "Nomor Pokok Wajib Pajak (NPWP)" },
+      {
+        "item": "Surat Keterangan Terdaftar di Kantor Pelayanan Pajak (SKT KPP)"
+      },
+      { "item": "NIB (Nomor Induk Berusaha)/Izin Usaha" },
+      { "item": "Design Website" },
+      { "item": "Hosting Website 1 Tahun" },
+      { "item": "Support Website Setelah Live 1 Minggu" }
+    ]
+  },
+  {
+    "Nama": "CV Gold",
+    "Harga": "IDR 8.5 JT",
+    "Color": "#ffd412",
+    "PacketItems": [
+      { "item": "Pengecekan Nama CV" },
+      { "item": "Akta Perseroan  dari Notaris" },
+      { "item": "SK dari Kementerian Hukum dan Hak Azasi Manusia" },
+      { "item": "Nomor Pokok Wajib Pajak (NPWP)" },
+      {
+        "item": "Surat Keterangan Terdaftar di Kantor Pelayanan Pajak (SKT KPP)"
+      },
+      { "item": "NIB (Nomor Induk Berusaha)/Izin Usaha" },
+      { "item": "Design Website" },
+      { "item": "Hosting Website 1 Tahun" },
+      { "item": "Support Website Setelah Live 1 Bulan" },
+      { "item": "Design Compro (Free Revisi 3x)" },
+      { "item": "Design Logo, Kop Surat, Dan Kartu Nama (Free Revisi 3x)" },
+      { "item": "Stempel Perusahaan" }
+    ]
   }
 ]

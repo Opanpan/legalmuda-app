@@ -22,9 +22,12 @@ export default function Home() {
       <Header pageName={pageName} />
       <Container fluid className="pageContainer">
         {/* ------------------------ FIRST CONTENT ------------------------ */}
-        <Row className="d-flex justify-content-center">
-          <Col className="col-auto">
-            <div className="firstLeftContent align-self-center">
+        <Row
+          className="d-flex justify-content-center"
+          style={{ height: "95vh" }}
+        >
+          <Col className="col-auto align-self-center">
+            <div className="firstLeftContent">
               <h1>
                 Legalitas <span style={{ color: "blue" }}>Usaha</span>
               </h1>
@@ -39,7 +42,7 @@ export default function Home() {
               </h3>
             </div>
           </Col>
-          <Col className="col-auto firstRightContent">
+          <Col className="col-auto firstRightContent justify-content-center align-self-center">
             <Image src={Legalitas} alt="Legalitas Image" />
           </Col>
         </Row>

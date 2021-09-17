@@ -26,9 +26,12 @@ export default function Home() {
       <Header pageName={pageName} />
       <Container fluid className="pageContainer">
         {/* ------------------------ FIRST CONTENT ------------------------ */}
-        <Row className="d-flex justify-content-center">
-          <Col className="col-auto">
-            <div className="firstLeftContentHome">
+        <Row
+          className="d-flex justify-content-center"
+          style={{ height: "100vh" }}
+        >
+          <Col className="col-auto align-self-center">
+            <div className="firstLeftContent">
               <h1>
                 Bikin Perusahaan Impianmu Dalam{" "}
                 <span style={{ color: "#1800FC" }}>2 Hari</span>
@@ -98,8 +101,8 @@ export default function Home() {
               </Row>
             </div>
           </Col>
-          <Col className="col-auto firstRightContent">
-            <Image src={HomeImagePNG} />
+          <Col className="col-auto firstRightContent align-self-center">
+            <Image src={HomeImagePNG} alt="Home Page Image" />
           </Col>
           {/* ------------------------ FIRST CONTENT ------------------------ */}
         </Row>

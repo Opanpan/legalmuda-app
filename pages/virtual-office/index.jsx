@@ -22,7 +22,10 @@ export default function VirtualOffice() {
       <Header pageName={pageName} />
       <Container fluid className="pageContainer">
         {/* ------------------------ FIRST CONTENT ------------------------ */}
-        <Row className="d-flex justify-content-center">
+        <Row
+          className="d-flex justify-content-center"
+          style={{ height: "95vh" }}
+        >
           <Col className="col-auto align-self-center">
             <div className="firstLeftContent">
               <h1>
@@ -39,7 +42,7 @@ export default function VirtualOffice() {
               </h3>
             </div>
           </Col>
-          <Col className="col-auto firstRightContent justify-content-center">
+          <Col className="col-auto firstRightContent justify-content-center align-self-center">
             <Image src={VirtualOfficeImage} alt="Virtual Office Image" />
           </Col>
         </Row>
