@@ -1,5 +1,5 @@
 import Head from "next/head";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Button, Form } from "react-bootstrap";
 import styles from "./Index.module.scss";
 import Header from "../components/Header";
@@ -19,21 +19,21 @@ export default function Home() {
   const router = useRouter();
   const pageName = router.pathname;
 
-  const [message, setMessage] = useState();
-
-  const encodeMessage = urlencode(message);
-
   const fullname = useInput("");
   const email = useInput("");
   const subject = useInput("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    setMessage(
-      `Hallo saya ${fullname.value} dan email saya ${email.value}, saya ingin konsultasi tentang ${subject.value} `
+    const message = urlencode(
+      `Hallo saya ${fullname.value} dan email saya ${email.value}, saya ingin konsultasi tentang ${subject.value}`,
+      "gbk"
     );
-    window.location.href = `https://wa.me/6285155113647?text=${encodeMessage}`;
+
+    window.open(`https://wa.me/6285155113647?text=${message}`);
+
+    console.log(message);
   };
 
   return (
