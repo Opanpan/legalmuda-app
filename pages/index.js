@@ -1,4 +1,5 @@
 import Head from "next/head";
+import React, { useState } from "react";
 import { Container, Row, Col, Button, Form } from "react-bootstrap";
 import styles from "./Index.module.scss";
 import Header from "../components/Header";
@@ -11,10 +12,29 @@ import Image from "next/image";
 import Reliability from "../assets/img/reliability 1.svg";
 import Pricing from "../assets/img/pricing 1.svg";
 import Professional from "../assets/img/professional 1.svg";
+import useInput from "../hooks/useInput";
+import urlencode from "urlencode";
 
 export default function Home() {
   const router = useRouter();
   const pageName = router.pathname;
+
+  const [message, setMessage] = useState();
+
+  const encodeMessage = urlencode(message);
+
+  const fullname = useInput("");
+  const email = useInput("");
+  const subject = useInput("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    setMessage(
+      `Hallo saya ${fullname.value} dan email saya ${email.value}, saya ingin konsultasi tentang ${subject.value} `
+    );
+    window.location.href = `https://wa.me/6285155113647?text=${encodeMessage}`;
+  };
 
   return (
     <>
@@ -255,7 +275,10 @@ export default function Home() {
                   <Container>
                     <Row>
                       <Col className="d-flex justify-content-center">
-                        <Form className={styles.formContainer}>
+                        <Form
+                          className={styles.formContainer}
+                          onSubmit={handleSubmit}
+                        >
                           <Form.Group
                             className={styles.formBox}
                             controlId="exampleForm.ControlInput1"
@@ -263,7 +286,9 @@ export default function Home() {
                             <Form.Control
                               type="email"
                               placeholder="Email"
+                              required
                               className={styles.formInput}
+                              {...email}
                             />
                           </Form.Group>
                           <Form.Group
@@ -273,7 +298,9 @@ export default function Home() {
                             <Form.Control
                               type="text"
                               placeholder="Fullname"
+                              required
                               className={styles.formInput}
+                              {...fullname}
                             />
                           </Form.Group>
                           <Form.Group
@@ -283,12 +310,15 @@ export default function Home() {
                             <Form.Control
                               type="text"
                               placeholder="Subject"
+                              required
                               className={styles.formInput}
+                              {...subject}
                             />
                           </Form.Group>
                           <Button
                             className={`${styles.btnSubmit}`}
                             bsPrefix="super-btn"
+                            type="submit"
                           >
                             Submit
                           </Button>
