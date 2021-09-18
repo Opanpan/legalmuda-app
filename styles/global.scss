@@ -93,6 +93,20 @@ h4 {
   }
 
   .secondContentHome {
+    margin-top: 90px;
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      @media screen and (min-width: 1440px) {
+        width: 62vw;
+      }
+      @media screen and (max-width: 425px) {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .thirdContentHome {
     margin-top: 144px;
 
     @media screen and (max-width: 425px) {

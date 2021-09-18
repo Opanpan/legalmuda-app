@@ -1,8 +1,16 @@
 .Footer {
-  width: 320px;
+  width: 340px;
   margin-top: 40px;
 
   .footerItem {
     margin-top: 10px;
+  }
+}
+
+.serviceItem {
+  &:hover {
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
   }
 }

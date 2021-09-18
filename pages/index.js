@@ -20,27 +20,27 @@ export default function Home() {
   const pageName = router.pathname;
 
   const fullname = useInput("");
-  const email = useInput("");
   const subject = useInput("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     const message = urlencode(
-      `Hallo saya ${fullname.value} dan email saya ${email.value}, saya ingin konsultasi tentang ${subject.value}`,
+      `Hallo saya ${fullname.value} , saya ingin konsultasi tentang ${subject.value}`,
       "gbk"
     );
 
-    window.open(`https://wa.me/6285155113647?text=${message}`);
-
-    console.log(message);
+    window.open(`https://wa.me/6281296480098?text=${message}`);
   };
 
   return (
     <>
       <Head>
         <title>Legal Muda</title>
+        <meta charSet="utf-8" />
         <meta name="description" content="Legal Muda  Homepage" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="Legal Muda" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header pageName={pageName} />
@@ -48,12 +48,12 @@ export default function Home() {
         {/* ------------------------ FIRST CONTENT ------------------------ */}
         <Row
           className="d-flex justify-content-center"
-          style={{ height: "100vh" }}
+          style={{ height: "85vh" }}
         >
           <Col className="col-auto align-self-center">
             <div className="firstLeftContent">
               <h1>
-                Bikin Perusahaan Impianmu Dalam{" "}
+                Dirikan Perusahaan Impianmu Dalam{" "}
                 <span style={{ color: "#1800FC" }}>2 Hari</span>
               </h1>
               <h3 style={{ marginTop: "20px" }}>
@@ -126,8 +126,21 @@ export default function Home() {
           </Col>
           {/* ------------------------ FIRST CONTENT ------------------------ */}
         </Row>
+        <Row className="d-flex justify-content-center secondContentHome">
+          <Col className="d-flex justify-content-center">
+            <div className="">
+              <h1>
+                100% UANG KEMBALI{" "}
+                <span className="fontLight">
+                  JIKA LEGALITAS USAHA ANDA TIDAK TERDAFTAR DI KEMENKUMHAM
+                </span>
+              </h1>
+              <hr size="1" className={styles.line} />
+            </div>
+          </Col>
+        </Row>
         <Row
-          className="d-flex justify-content-center secondContentHome"
+          className="d-flex justify-content-center thirdContentHome"
           id="produk"
         >
           <Col className="d-flex justify-content-center">
@@ -166,7 +179,7 @@ export default function Home() {
             })}
           </Row>
         </Row>
-        <Row id="konsultasi" className="d-flex justify-content-center">
+        <Row className="d-flex justify-content-center">
           <Col className="col-auto p-0">
             <div
               className={`${styles.kenapaLegalMuda} d-flex justify-content-center`}
@@ -217,9 +230,8 @@ export default function Home() {
                         </h3>
                         <div className={styles.kenapaLegalMudaItem}>
                           <h4>
-                            Kami mampu mendirikan usaha anda hanya dalam waktu 2
-                            Hari kerja dari waktu penanda tanganan Akta selesai
-                            anda lakukan.
+                            Kami memberikan harga yang terjangkau dengan tetap
+                            mengedepankan pelayanan terbaik pada setiap klien.
                           </h4>
                         </div>
                       </Col>
@@ -236,9 +248,9 @@ export default function Home() {
                         </h3>
                         <div className={styles.kenapaLegalMudaItem}>
                           <h4>
-                            Kami mampu mendirikan usaha anda hanya dalam waktu 2
-                            Hari kerja dari waktu penanda tanganan Akta selesai
-                            anda lakukan.
+                            Kami memiliki Tim yang profesional dalam bidangnya
+                            sehingga Legalitas maupun Branding Usaha yang Kami
+                            tangani cepat dan terjamin.
                           </h4>
                         </div>
                       </Col>
@@ -248,7 +260,7 @@ export default function Home() {
               </div>
             </div>
           </Col>
-          <Col className="col-auto p-0">
+          <Col id="konsultasi" className="col-auto p-0">
             <div
               className={`${styles.konsultasiLegalMuda} d-flex justify-content-center`}
             >
@@ -279,18 +291,6 @@ export default function Home() {
                           className={styles.formContainer}
                           onSubmit={handleSubmit}
                         >
-                          <Form.Group
-                            className={styles.formBox}
-                            controlId="exampleForm.ControlInput1"
-                          >
-                            <Form.Control
-                              type="email"
-                              placeholder="Email"
-                              required
-                              className={styles.formInput}
-                              {...email}
-                            />
-                          </Form.Group>
                           <Form.Group
                             className={styles.formBox}
                             controlId="exampleForm.ControlInput1"

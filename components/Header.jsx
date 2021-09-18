@@ -15,7 +15,6 @@ export default function Header(props) {
   const [scrollPosition, setScrollPosition] = useState(0);
 
   const hoverHeader = (e) => {
-    console.log(e.target.id);
     if (e.target.id !== props.pageName) {
       setIsClick("");
     }

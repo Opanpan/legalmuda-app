@@ -16,7 +16,10 @@ export default function Home() {
     <>
       <Head>
         <title>Legal Muda. Branding Usaha</title>
+        <meta charSet="utf-8" />
         <meta name="description" content="Branding Usaha" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="Legal Muda" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header pageName={pageName} />

@@ -16,7 +16,10 @@ export default function VirtualOffice() {
     <>
       <Head>
         <title>Legal Muda. Virtual Office</title>
-        <meta name="description" content="Legalitas Usaha" />
+        <meta charSet="utf-8" />
+        <meta name="description" content="Virtual Office" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="Legal Muda" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header pageName={pageName} />

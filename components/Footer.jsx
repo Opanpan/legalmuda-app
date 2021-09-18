@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import Link from "next/link";
 import styles from "./Footer.module.scss";
 import UseAnimations from "react-useanimations";
 import facebook from "react-useanimations/lib/facebook";
@@ -7,14 +8,15 @@ import twitter from "react-useanimations/lib/twitter";
 
 export default function Footer() {
   return (
-    <Container fluid className="p-5">
+    <Container fluid style={{ padding: "3%" }}>
       <Row>
         <Col className={`col-auto ${styles.Footer}`}>
           <h3 style={{ marginBottom: "24px" }} className="fontBold">
             Head Office
           </h3>
           <h3>
-            Bukit Pamulang Indah Blok G/8 No.6 Tangerang Selatan, Pamulang 13520
+            18 Office Park Building, 12th Floor Unit A & H Jl. Tb Simatupang
+            Kav. 18
           </h3>
           <Row style={{ marginTop: "18px" }}>
             <Col className="col-auto">
@@ -22,18 +24,24 @@ export default function Footer() {
               <h4 className={`fontBold ${styles.footerItem}`}>Email</h4>
             </Col>
             <Col>
-              <h4 className={styles.footerItem}>+62 9999999</h4>
-              <h4 className={styles.footerItem}>fanalriansyah@gmail.com</h4>
+              <h4 className={styles.footerItem}>+62 812 9648 0098</h4>
+              <h4 className={styles.footerItem}>sales.legalmuda@gmail.com</h4>
             </Col>
           </Row>
         </Col>
-        <Col className={`col-auto ${styles.Footer}`}>
+        <Col className={`col-auto`} style={{ marginTop: "40px" }}>
           <h3 className="fontBold" style={{ marginBottom: "24px" }}>
             Our Service
           </h3>
-          <h3>Legalitas Usaha</h3>
-          <h3>Virutal Office</h3>
-          <h3>Branding Usaha</h3>
+          <Link href="/legalitas">
+            <h3 className={styles.serviceItem}>Legalitas Usaha</h3>
+          </Link>
+          <Link href="/virtual-office">
+            <h3 className={styles.serviceItem}>Virtual Office</h3>
+          </Link>
+          <Link href="/branding-usaha">
+            <h3 className={styles.serviceItem}>Branding Usaha</h3>
+          </Link>
         </Col>
         <Col className={`col-auto ${styles.Footer}`}>
           <h3 className="fontBold" style={{ marginBottom: "24px" }}>

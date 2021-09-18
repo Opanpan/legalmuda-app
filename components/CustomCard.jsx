@@ -30,7 +30,7 @@ export default function CustomCard(props) {
         style={{ backgroundColor: "none" }}
         className={`d-flex justify-content-center ${styles.footerCard}`}
       >
-        <a href={`https://wa.me/6285155113647?text=${text}`}>
+        <a href={`https://wa.me/6281296480098?text=${text}`}>
           <Button bsPrefix="super-btn" className={styles.btnContactUs}>
             Hubungi Kami
           </Button>
