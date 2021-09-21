@@ -17,9 +17,19 @@ export default function VirtualOffice() {
       <Head>
         <title>Legal Muda. Virtual Office</title>
         <meta charSet="utf-8" />
-        <meta name="description" content="Virtual Office" />
-        <meta name="keywords" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Virtual Office | Virtual Office 2 Jutaan | Virtual Office Jabodetabek | Virtual Office Murah | Virtual Office Jakarta Selatan / Jakarta Utara | Virtual Office Jakarta Barat / Jakarta Timur | Virtual Office Jakarta Pusat"
+        />
         <meta name="author" content="Legal Muda" />
+        <meta property="og:url" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Legal Muda. Branding Usaha" />
+        <meta
+          property="og:description"
+          content="Virtual Office | Virtual Office 2 Jutaan | Virtual Office Jabodetabek | Virtual Office Murah | Virtual Office Jakarta Selatan / Jakarta Utara | Virtual Office Jakarta Barat / Jakarta Timur | Virtual Office Jakarta Pusat"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header pageName={pageName} />
@@ -37,16 +47,20 @@ export default function VirtualOffice() {
               <br></br>
               <h3>
                 Kembangkan bisnis anda dengan{" "}
-                <span className="fontBold">Lokasi yang Strategis </span>
+                <span className="fontBold">LOKASI YANG STRATEGIS </span>
                 dan berbagai macam{" "}
-                <span className="fontBold">Fasiltas Lengkap</span> dan{" "}
-                <span className="fontBold">Terbaik </span>
+                <span className="fontBold">FASILITAS LENGKAP</span> dan{" "}
+                <span className="fontBold">TERBAIK </span>
                 dari LegalMuda.com
               </h3>
             </div>
           </Col>
           <Col className="col-auto firstRightContent justify-content-center align-self-center">
-            <Image src={VirtualOfficeImage} alt="Virtual Office Image" />
+            <Image
+              src={VirtualOfficeImage}
+              alt="Virtual Office Image"
+              quality={100}
+            />
           </Col>
         </Row>
         {/* ------------------------ FIRST CONTENT ------------------------ */}

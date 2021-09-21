@@ -176,7 +176,14 @@
 
       &::placeholder {
         color: #00205b;
+        opacity: 0.4;
       }
+    }
+
+    .formLabel {
+      width: 100%;
+      text-align: left;
+      color: white;
     }
   }
 }

@@ -13,7 +13,7 @@ export default function ProductCard(props) {
         <div>
           <Row>
             <Col className="d-flex align-items-center justify-content-center">
-              <Image src={props.img} alt={props.alt} />
+              <Image src={props.img} alt={props.alt} quality={100} />
             </Col>
           </Row>
           <Row

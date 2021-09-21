@@ -38,9 +38,23 @@ export default function Home() {
       <Head>
         <title>Legal Muda</title>
         <meta charSet="utf-8" />
-        <meta name="description" content="Legal Muda  Homepage" />
-        <meta name="keywords" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Legal Muda  Homepage | Pembuatan PT/ CV/ WEB/ Desain | Jasa Legalitas Usaha | Jasa Legalitas PT/ CV/ WEB/ Desain Jabodetabek | Pembuatan Legalitas Cepat | Jasa Legalitas Terbaik "
+        />
+        <meta
+          name="keywords"
+          content="legalitas, usaha, PT, CV, jasa, web, branding, jasa legalitas, legalitas terbaik, legalitas termurah, legalitas jabodetabek"
+        />
         <meta name="author" content="Legal Muda" />
+        <meta property="og:url" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Legal Muda. Branding Usaha" />
+        <meta
+          property="og:description"
+          content="Legal Muda  Homepage | Pembuatan PT/ CV/ WEB/ Desain | Jasa Legalitas Usaha | Jasa Legalitas PT/ CV/ WEB/ Desain Jabodetabek | Pembuatan Legalitas Cepat | Jasa Legalitas Terbaik "
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header pageName={pageName} />
@@ -67,7 +81,7 @@ export default function Home() {
               <h3 style={{ marginTop: "30px" }}>
                 <span className="fontBold">CUKUP KTP dan NPWP </span>
                 saja legalitas usaha anda dapat selesai dalam {""}
-                <span className="fontBold">2 Hari kerja</span>
+                <span className="fontBold">2 HARI KERJA</span>
                 <br />
               </h3>
               <Row
@@ -122,7 +136,7 @@ export default function Home() {
             </div>
           </Col>
           <Col className="col-auto firstRightContent align-self-center">
-            <Image src={HomeImagePNG} alt="Home Page Image" />
+            <Image src={HomeImagePNG} alt="Home Page Image" quality={100} />
           </Col>
           {/* ------------------------ FIRST CONTENT ------------------------ */}
         </Row>
@@ -291,25 +305,33 @@ export default function Home() {
                           className={styles.formContainer}
                           onSubmit={handleSubmit}
                         >
-                          <Form.Group
-                            className={styles.formBox}
-                            controlId="exampleForm.ControlInput1"
-                          >
+                          <Form.Group className={styles.formBox}>
+                            <Form.Label
+                              htmlFor="fullname"
+                              className={styles.formLabel}
+                            >
+                              Fullname
+                            </Form.Label>
                             <Form.Control
+                              id="fullname"
                               type="text"
-                              placeholder="Fullname"
+                              placeholder="Your name..."
                               required
                               className={styles.formInput}
                               {...fullname}
                             />
                           </Form.Group>
-                          <Form.Group
-                            className={styles.formBox}
-                            controlId="exampleForm.ControlInput1"
-                          >
+                          <Form.Group className={styles.formBox}>
+                            <Form.Label
+                              htmlFor="subject"
+                              className={styles.formLabel}
+                            >
+                              Subject
+                            </Form.Label>
                             <Form.Control
+                              id="subject"
                               type="text"
-                              placeholder="Subject"
+                              placeholder="Your subject..."
                               required
                               className={styles.formInput}
                               {...subject}

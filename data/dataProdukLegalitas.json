@@ -12,7 +12,10 @@
       {
         "item": "Surat Keterangan Terdaftar di Kantor Pelayanan Pajak (SKT KPP)"
       },
-      { "item": "NIB (Nomor Induk Berusaha)/Izin Usaha" }
+      { "item": "NIB (Nomor Induk Berusaha)/Izin Usaha" },
+      {
+        "item": "Akun OSS RBA Dan Sertifikat Standar (Sesuai dengan tingkat risiko KBLI)"
+      }
     ]
   },
   {
@@ -29,6 +32,9 @@
         "item": "Surat Keterangan Terdaftar di Kantor Pelayanan Pajak (SKT KPP)"
       },
       { "item": "NIB (Nomor Induk Berusaha)/Izin Usaha" },
+      {
+        "item": "Akun OSS RBA Dan Sertifikat Standar (Sesuai dengan tingkat risiko KBLI)"
+      },
       { "item": "Design Website" },
       { "item": "Hosting Website 1 Tahun" },
       { "item": "Support Website Setelah Live 1 Minggu" }
@@ -48,6 +54,9 @@
         "item": "Surat Keterangan Terdaftar di Kantor Pelayanan Pajak (SKT KPP)"
       },
       { "item": "NIB (Nomor Induk Berusaha)/Izin Usaha" },
+      {
+        "item": "Akun OSS RBA Dan Sertifikat Standar (Sesuai dengan tingkat risiko KBLI)"
+      },
       { "item": "Design Website" },
       { "item": "Hosting Website 1 Tahun" },
       { "item": "Support Website Setelah Live 1 Bulan" },
@@ -69,7 +78,10 @@
       {
         "item": "Surat Keterangan Terdaftar di Kantor Pelayanan Pajak (SKT KPP)"
       },
-      { "item": "NIB (Nomor Induk Berusaha)/Izin Usaha" }
+      { "item": "NIB (Nomor Induk Berusaha)/Izin Usaha" },
+      {
+        "item": "Akun OSS RBA Dan Sertifikat Standar (Sesuai dengan tingkat risiko KBLI)"
+      }
     ]
   },
   {
@@ -86,6 +98,9 @@
         "item": "Surat Keterangan Terdaftar di Kantor Pelayanan Pajak (SKT KPP)"
       },
       { "item": "NIB (Nomor Induk Berusaha)/Izin Usaha" },
+      {
+        "item": "Akun OSS RBA Dan Sertifikat Standar (Sesuai dengan tingkat risiko KBLI)"
+      },
       { "item": "Design Website" },
       { "item": "Hosting Website 1 Tahun" },
       { "item": "Support Website Setelah Live 1 Minggu" }
@@ -105,6 +120,9 @@
         "item": "Surat Keterangan Terdaftar di Kantor Pelayanan Pajak (SKT KPP)"
       },
       { "item": "NIB (Nomor Induk Berusaha)/Izin Usaha" },
+      {
+        "item": "Akun OSS RBA Dan Sertifikat Standar (Sesuai dengan tingkat risiko KBLI)"
+      },
       { "item": "Design Website" },
       { "item": "Hosting Website 1 Tahun" },
       { "item": "Support Website Setelah Live 1 Bulan" },

@@ -17,9 +17,20 @@ export default function Home() {
       <Head>
         <title>Legal Muda. Branding Usaha</title>
         <meta charSet="utf-8" />
-        <meta name="description" content="Branding Usaha" />
-        <meta name="keywords" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Branding Usaha | Pembuatan Web Murah | Jasa Web Jabodetabek | Jasa Web Company Profile | Pembuatan Web Company Profile | Jasa Web Jakarta"
+        />
         <meta name="author" content="Legal Muda" />
+        <meta property="og:url" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Legal Muda. Branding Usaha" />
+        <meta
+          property="og:description"
+          content="Branding Usaha | Pembuatan Web Murah | Jasa Web Jabodetabek | Jasa Web Company Profile | Pembuatan Web Company Profile | Jasa Web Jakarta"
+        />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header pageName={pageName} />
@@ -36,13 +47,13 @@ export default function Home() {
               </h1>
               <br></br>
               <h3>
-                Siapkan <span className="fontBold">Kebutuhan Utama </span>
+                Siapkan <span className="fontBold">KEBUTUHAN UTAMA </span>
                 perusahaan anda, untuk memasuki era digital serba cepat.
               </h3>
             </div>
           </Col>
           <Col className="col-auto firstRightContent justify-content-center align-self-center">
-            <Image src={Branding} alt="Branding Usaha Image" />
+            <Image src={Branding} alt="Branding Usaha Image" quality={100} />
           </Col>
         </Row>
         {/* ------------------------ FIRST CONTENT ------------------------ */}
