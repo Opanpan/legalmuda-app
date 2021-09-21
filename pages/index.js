@@ -1,5 +1,4 @@
 import Head from "next/head";
-import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Button, Form } from "react-bootstrap";
 import styles from "./Index.module.scss";
 import Header from "../components/Header";
@@ -91,7 +90,7 @@ export default function Home() {
                 <Col className="col-auto">
                   <a href="#konsultasi">
                     <Button
-                      className={`${styles.btnKonsultasi}`}
+                      className={`${styles.btnKonsul}`}
                       bsPrefix="super-btn"
                     >
                       Free Konsultasi
