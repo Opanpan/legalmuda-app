@@ -7,7 +7,7 @@ export default function Logo() {
     <Container>
       <Row>
         <Col className="d-flex justify-content-center">
-          <Image src={LogoLegalMuda} quality={100} />
+          <Image src={LogoLegalMuda} quality={100} alt="Legal Muda Logo" />
         </Col>
       </Row>
     </Container>
