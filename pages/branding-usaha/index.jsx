@@ -31,14 +31,14 @@ export default function Home() {
           content="Branding Usaha | Pembuatan Web Murah | Jasa Web Jabodetabek | Jasa Web Company Profile | Pembuatan Web Company Profile | Jasa Web Jakarta"
         />
 
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/faveico.ico" />
       </Head>
       <Header pageName={pageName} />
       <Container fluid className="pageContainer">
         {/* ------------------------ FIRST CONTENT ------------------------ */}
         <Row
           className="d-flex justify-content-center"
-          style={{ height: "95vh" }}
+          style={{ height: "90vh" }}
         >
           <Col className="col-auto  align-self-center">
             <div className="firstLeftContent">

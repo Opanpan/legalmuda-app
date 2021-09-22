@@ -54,14 +54,14 @@ export default function Home() {
           property="og:description"
           content="Legal Muda  Homepage | Pembuatan PT/ CV/ WEB/ Desain | Jasa Legalitas Usaha | Jasa Legalitas PT/ CV/ WEB/ Desain Jabodetabek | Pembuatan Legalitas Cepat | Jasa Legalitas Terbaik "
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/faveico.ico" />
       </Head>
       <Header pageName={pageName} />
       <Container fluid className="pageContainer">
         {/* ------------------------ FIRST CONTENT ------------------------ */}
         <Row
           className="d-flex justify-content-center"
-          style={{ height: "85vh" }}
+          style={{ height: "80vh" }}
         >
           <Col className="col-auto align-self-center">
             <div className="firstLeftContent">

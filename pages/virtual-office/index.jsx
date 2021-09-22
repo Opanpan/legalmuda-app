@@ -30,14 +30,14 @@ export default function VirtualOffice() {
           property="og:description"
           content="Virtual Office | Virtual Office 2 Jutaan | Virtual Office Jabodetabek | Virtual Office Murah | Virtual Office Jakarta Selatan / Jakarta Utara | Virtual Office Jakarta Barat / Jakarta Timur | Virtual Office Jakarta Pusat"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/faveico.ico" />
       </Head>
       <Header pageName={pageName} />
       <Container fluid className="pageContainer">
         {/* ------------------------ FIRST CONTENT ------------------------ */}
         <Row
           className="d-flex justify-content-center"
-          style={{ height: "95vh" }}
+          style={{ height: "90vh" }}
         >
           <Col className="col-auto align-self-center">
             <div className="firstLeftContent">

@@ -130,5 +130,57 @@
       { "item": "Design Logo, Kop Surat, Dan Kartu Nama (Free Revisi 3x)" },
       { "item": "Stempel Perusahaan" }
     ]
+  },
+  {
+    "Nama": "PENDIRIAN PMA",
+    "Harga": "IDR 10 JT",
+    "Text": "Saya mau menanyakan pendirian PMA",
+    "PacketItems": [
+      { "item": "Company Deed from Notary" },
+      { "item": "Decree of the Minister of Law and Human Rights" },
+      { "item": "Trading Business License (SIUP)" },
+      {
+        "item": "Nomor Pokok Wajib Pajak (NPWP)SPPL (Letter of Commitment to Environmental Management and Monitoring)"
+      },
+      { "item": "Company Tax Registration Number (NPWP)" },
+      { "item": "Registered Certificate at the Tax Office (SKT KPP)" }
+    ]
+  },
+  {
+    "Nama": "PERUBAHAN AKTA",
+    "Harga": "START FROM IDR 3 JT",
+    "Text": "Saya mau menanyakan perubahaan akta",
+    "PacketItems": [
+      { "item": "Akta Perubahan" },
+      { "item": "SK/SP Perubahaan Dari Kemenkumham" }
+    ]
+  },
+  {
+    "Nama": "PENGURUSAN IUMK (Izin Usaha Mikro Kecil)",
+    "Harga": "IDR 1 JT",
+    "Text": "Saya mau menanyakan pengurusan izin usaha mikro kecil",
+    "PacketItems": [
+      { "item": "NIB Perorangan" },
+      { "item": "IUMK (Izin Usaha Mikro Kecil)" },
+      { "item": "SPPL (Surat Pernyataan Pemeliharaan Lingkungan)" }
+    ]
+  },
+  {
+    "Nama": "PENGURUSAN IZIN OSS ( SIUP & NIB )",
+    "Harga": "IDR 2.5 JT",
+    "Text": "Saya mau menanyakan izin OSS",
+    "PacketItems": [
+      { "item": "Surat Izin Usaha Perdagangan (SIUP)" },
+      { "item": "Nomor Induk Berusaha (NIB)" },
+      { "item": "Surat Izin Lokasi" }
+    ]
+  },
+  {
+    "Nama": "PENGURUSAN API ( Angka Pengenal Impor )",
+    "Harga": "IDR 3 JT",
+    "Text": "Saya mau menanyakan pengurusan angka pengenal import",
+    "PacketItems": [
+      { "item": "Nomor Induk Berusaha yang Sudah Izin ekspor dan Impor" }
+    ]
   }
 ]

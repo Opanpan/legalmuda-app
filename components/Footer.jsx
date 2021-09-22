@@ -5,6 +5,7 @@ import UseAnimations from "react-useanimations";
 import facebook from "react-useanimations/lib/facebook";
 import instagram from "react-useanimations/lib/instagram";
 import twitter from "react-useanimations/lib/twitter";
+import Logo from "./Logo";
 
 export default function Footer() {
   return (
@@ -52,12 +53,19 @@ export default function Footer() {
               <UseAnimations animation={facebook} size={30} />
             </Col>
             <Col className="col-auto">
-              <UseAnimations animation={instagram} size={30} />
+              <Link href="https://www.instagram.com/legalmuda_com/">
+                <UseAnimations animation={instagram} size={30} />
+              </Link>
             </Col>
             <Col className="col-auto">
               <UseAnimations animation={twitter} size={30} />
             </Col>
           </Row>
+        </Col>
+      </Row>
+      <Row className="mt-3">
+        <Col>
+          <Logo />
         </Col>
       </Row>
       <Row>

@@ -30,14 +30,14 @@ export default function Home() {
           property="og:description"
           content="Legalitas Usaha | Pembuatan PT 6 Juta | Pembuatan PT/ CV/ Akta Cuma 2 Hari | Pembuatan PT/ CV/ Akta Murah | Pembuatan PT/ CV/ Akta Jabodetabek"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/faveico.ico" />
       </Head>
       <Header pageName={pageName} />
       <Container fluid className="pageContainer">
         {/* ------------------------ FIRST CONTENT ------------------------ */}
         <Row
           className="d-flex justify-content-center"
-          style={{ height: "95vh" }}
+          style={{ height: "90vh" }}
         >
           <Col className="col-auto align-self-center">
             <div className="firstLeftContent">
