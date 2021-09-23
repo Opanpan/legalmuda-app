@@ -23,7 +23,7 @@ export default function Home() {
           content="Branding Usaha | Pembuatan Web Murah | Jasa Web Jabodetabek | Jasa Web Company Profile | Pembuatan Web Company Profile | Jasa Web Jakarta"
         />
         <meta name="author" content="Legal Muda" />
-        <meta property="og:url" content="" />
+        <meta property="og:url" content="https://legalmuda.co.id/legalitas" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Legal Muda. Branding Usaha" />
         <meta

@@ -23,7 +23,7 @@ export default function Home() {
           content="Legalitas Usaha | Pembuatan PT 6 Juta | Pembuatan PT/ CV/ Akta Cuma 2 Hari | Pembuatan PT/ CV/ Akta Murah | Pembuatan PT/ CV/ Akta Jabodetabek"
         />
         <meta name="author" content="Legal Muda" />
-        <meta property="og:url" content="" />
+        <meta property="og:url" content="https://legalmuda.co.id/legalitas" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Legal Muda. Legalitas Usaha" />
         <meta

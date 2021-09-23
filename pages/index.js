@@ -51,7 +51,7 @@ export default function Home() {
           content="legalitas, usaha, PT, CV, jasa, web, branding, jasa legalitas, legalitas terbaik, legalitas termurah, legalitas jabodetabek"
         />
         <meta name="author" content="Legal Muda" />
-        <meta property="og:url" content="" />
+        <meta property="og:url" content="https://legalmuda.co.id/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Legal Muda. Branding Usaha" />
         <meta
@@ -74,12 +74,10 @@ export default function Home() {
                 <span style={{ color: "#1800FC" }}>2 Hari</span>
               </h1>
               <h3 style={{ marginTop: "20px" }}>
-                Mau bikin perusahaan tapi bingung urus berkas ? LegalMuda solusi
-                pembuatan PT / CV / PMA / YAYASAN
+                Ingin mendirikan perusahaan tapi bingung urus berkas ? LegalMuda
+                solusi pembuatan PT / CV / PMA / YAYASAN{" "}
+                <span className="fontBold">CEPAT , MUDAH DAN ANTI RIBET </span>
                 <br />
-                <span className="fontBold">
-                  CEPAT , MUDAH DAN GAK PAKE RIBET
-                </span>
               </h3>
               <h3 style={{ marginTop: "30px" }}>
                 <span className="fontBold">CUKUP KTP dan NPWP </span>

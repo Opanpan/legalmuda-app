@@ -23,7 +23,7 @@ export default function VirtualOffice() {
           content="Virtual Office | Virtual Office 2 Jutaan | Virtual Office Jabodetabek | Virtual Office Murah | Virtual Office Jakarta Selatan / Jakarta Utara | Virtual Office Jakarta Barat / Jakarta Timur | Virtual Office Jakarta Pusat"
         />
         <meta name="author" content="Legal Muda" />
-        <meta property="og:url" content="" />
+        <meta property="og:url" content="https://legalmuda.co.id/legalitas" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Legal Muda. Branding Usaha" />
         <meta
