@@ -39,6 +39,10 @@ export default function Home() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
+          name="google-site-verification"
+          content="tIaXzbuPFQl0RfXbbJ1ZmYCorgg9s4hOe4vUV7D8GsY"
+        />
+        <meta
           name="description"
           content="Legal Muda  Homepage | Pembuatan PT/ CV/ WEB/ Desain | Jasa Legalitas Usaha | Jasa Legalitas PT/ CV/ WEB/ Desain Jabodetabek | Pembuatan Legalitas Cepat | Jasa Legalitas Terbaik "
         />
