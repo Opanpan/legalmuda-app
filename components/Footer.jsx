@@ -15,10 +15,7 @@ export default function Footer() {
           <h3 style={{ marginBottom: "24px" }} className="fontBold">
             Head Office
           </h3>
-          <h3>
-            18 Office Park Building, 12th Floor Unit A & H Jl. Tb Simatupang
-            Kav. 18
-          </h3>
+          <h3>18 Office Park Building, Jl. Tb Simatupang Kav. 18</h3>
           <Row style={{ marginTop: "18px" }}>
             <Col className="col-auto">
               <h4 className={`fontBold ${styles.footerItem}`}>Phone</h4>

@@ -37,7 +37,7 @@ export default function VirtualOffice() {
         {/* ------------------------ FIRST CONTENT ------------------------ */}
         <Row
           className="d-flex justify-content-center"
-          style={{ height: "90vh" }}
+          style={{ height: "95vh" }}
         >
           <Col className="col-auto align-self-center">
             <div className="firstLeftContent">
