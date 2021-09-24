@@ -27,7 +27,10 @@ export default function Footer() {
             </Col>
           </Row>
         </Col>
-        <Col className={`col-auto`} style={{ marginTop: "40px" }}>
+        <Col
+          className={`col-auto ${styles.footerService}`}
+          style={{ marginTop: "40px" }}
+        >
           <h3 className="fontBold" style={{ marginBottom: "24px" }}>
             Our Service
           </h3>
@@ -47,15 +50,25 @@ export default function Footer() {
           </h3>
           <Row>
             <Col className="col-auto">
-              <UseAnimations animation={facebook} size={30} />
-            </Col>
-            <Col className="col-auto">
-              <Link href="https://www.instagram.com/legalmuda_com/">
-                <UseAnimations animation={instagram} size={30} />
+              <Link href="https://www.facebook.com/LegalMuda-109969094773629">
+                <a>
+                  <UseAnimations animation={facebook} size={30} />
+                </a>
               </Link>
             </Col>
             <Col className="col-auto">
-              <UseAnimations animation={twitter} size={30} />
+              <Link href="https://www.instagram.com/legalmuda_com/">
+                <a>
+                  <UseAnimations animation={instagram} size={30} />
+                </a>
+              </Link>
+            </Col>
+            <Col className="col-auto">
+              <Link href="https://twitter.com/legalmudacoid">
+                <a>
+                  <UseAnimations animation={twitter} size={30} />
+                </a>
+              </Link>
             </Col>
           </Row>
         </Col>

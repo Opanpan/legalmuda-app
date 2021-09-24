@@ -1,5 +1,14 @@
 .Footer {
-  width: 340px;
+  width: 360px;
+  margin-top: 40px;
+
+  .footerItem {
+    margin-top: 10px;
+  }
+}
+
+.footerService {
+  width: 270px;
   margin-top: 40px;
 
   .footerItem {
