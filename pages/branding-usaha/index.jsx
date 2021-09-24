@@ -20,7 +20,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Branding Usaha | Pembuatan Web Murah | Jasa Web Jabodetabek | Jasa Web Company Profile | Pembuatan Web Company Profile | Jasa Web Jakarta"
+          content="legalmuda.co.id| legal muda | Branding Usaha | Pembuatan Web Murah | Jasa Web Jabodetabek | Jasa Web Company Profile | Pembuatan Web Company Profile | Jasa Web Jakarta"
         />
         <meta name="author" content="Legal Muda" />
         <meta property="og:url" content="https://legalmuda.co.id/legalitas" />
@@ -28,7 +28,7 @@ export default function Home() {
         <meta property="og:title" content="Legal Muda. Branding Usaha" />
         <meta
           property="og:description"
-          content="Branding Usaha | Pembuatan Web Murah | Jasa Web Jabodetabek | Jasa Web Company Profile | Pembuatan Web Company Profile | Jasa Web Jakarta"
+          content="legalmuda.co.id | legal muda | Branding Usaha | Pembuatan Web Murah | Jasa Web Jabodetabek | Jasa Web Company Profile | Pembuatan Web Company Profile | Jasa Web Jakarta"
         />
 
         <link rel="icon" href="/faveico.ico" />

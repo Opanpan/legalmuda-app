@@ -20,7 +20,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Legalitas Usaha | Pembuatan PT 6 Juta | Pembuatan PT/ CV/ Akta Cuma 2 Hari | Pembuatan PT/ CV/ Akta Murah | Pembuatan PT/ CV/ Akta Jabodetabek"
+          content="legalmuda.co.id | legal muda |  Legalitas Usaha | Pembuatan PT 6 Juta | Pembuatan PT/ CV/ Akta Cuma 2 Hari | Pembuatan PT/ CV/ Akta Murah | Pembuatan PT/ CV/ Akta Jabodetabek"
         />
         <meta name="author" content="Legal Muda" />
         <meta property="og:url" content="https://legalmuda.co.id/legalitas" />
@@ -28,7 +28,7 @@ export default function Home() {
         <meta property="og:title" content="Legal Muda. Legalitas Usaha" />
         <meta
           property="og:description"
-          content="Legalitas Usaha | Pembuatan PT 6 Juta | Pembuatan PT/ CV/ Akta Cuma 2 Hari | Pembuatan PT/ CV/ Akta Murah | Pembuatan PT/ CV/ Akta Jabodetabek"
+          content="legalmuda.co.id | legal muda |Legalitas Usaha | Pembuatan PT 6 Juta | Pembuatan PT/ CV/ Akta Cuma 2 Hari | Pembuatan PT/ CV/ Akta Murah | Pembuatan PT/ CV/ Akta Jabodetabek"
         />
         <link rel="icon" href="/faveico.ico" />
       </Head>

@@ -35,7 +35,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Legal Muda</title>
+        <title>
+          Legal Muda | Pembuatan PT/ CV/ WEB/ Desain | Jasa Legalitas Usaha |
+          Jasa Legalitas PT/ CV/ WEB/ Desain Jabodetabek | Pembuatan Legalitas
+          Cepat | Jasa Legalitas Terbaik
+        </title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
@@ -44,19 +48,24 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="Legal Muda  Homepage | Pembuatan PT/ CV/ WEB/ Desain | Jasa Legalitas Usaha | Jasa Legalitas PT/ CV/ WEB/ Desain Jabodetabek | Pembuatan Legalitas Cepat | Jasa Legalitas Terbaik "
+          content="legalmuda.co.id | legal muda | Legal Muda  Homepage | Pembuatan PT/ CV/ WEB/ Desain | Jasa Legalitas Usaha | Jasa Legalitas PT/ CV/ WEB/ Desain Jabodetabek | Pembuatan Legalitas Cepat | Jasa Legalitas Terbaik "
         />
         <meta
           name="keywords"
-          content="legalitas, usaha, PT, CV, jasa, web, branding, jasa legalitas, legalitas terbaik, legalitas termurah, legalitas jabodetabek"
+          content="legal muda, legalmuda, legalmuda.co.id, legalitas, usaha, PT, CV, jasa, web, branding, jasa legalitas, legalitas terbaik, legalitas termurah, legalitas jabodetabek"
         />
         <meta name="author" content="Legal Muda" />
         <meta property="og:url" content="https://legalmuda.co.id/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Legal Muda. Branding Usaha" />
+        <meta
+          property="og:title"
+          content=" Legal Muda. Homepage | legal muda | Pembuatan PT/ CV/ WEB/ Desain | Jasa Legalitas Usaha | Jasa
+          Legalitas PT/ CV/ WEB/ Desain Jabodetabek | Pembuatan Legalitas Cepat
+          | Jasa Legalitas Terbaik"
+        />
         <meta
           property="og:description"
-          content="Legal Muda  Homepage | Pembuatan PT/ CV/ WEB/ Desain | Jasa Legalitas Usaha | Jasa Legalitas PT/ CV/ WEB/ Desain Jabodetabek | Pembuatan Legalitas Cepat | Jasa Legalitas Terbaik "
+          content="legalmuda.co.id | legal muda | Legal Muda  Homepage | Pembuatan PT/ CV/ WEB/ Desain | Jasa Legalitas Usaha | Jasa Legalitas PT/ CV/ WEB/ Desain Jabodetabek | Pembuatan Legalitas Cepat | Jasa Legalitas Terbaik "
         />
         <link rel="icon" href="/faveico.ico" />
       </Head>

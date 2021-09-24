@@ -20,7 +20,7 @@ export default function VirtualOffice() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Virtual Office | Virtual Office 2 Jutaan | Virtual Office Jabodetabek | Virtual Office Murah | Virtual Office Jakarta Selatan / Jakarta Utara | Virtual Office Jakarta Barat / Jakarta Timur | Virtual Office Jakarta Pusat"
+          content="legalmuda.co.id | legal muda | Virtual Office | Virtual Office 2 Jutaan | Virtual Office Jabodetabek | Virtual Office Murah | Virtual Office Jakarta Selatan / Jakarta Utara | Virtual Office Jakarta Barat / Jakarta Timur | Virtual Office Jakarta Pusat"
         />
         <meta name="author" content="Legal Muda" />
         <meta property="og:url" content="https://legalmuda.co.id/legalitas" />
@@ -28,7 +28,7 @@ export default function VirtualOffice() {
         <meta property="og:title" content="Legal Muda. Branding Usaha" />
         <meta
           property="og:description"
-          content="Virtual Office | Virtual Office 2 Jutaan | Virtual Office Jabodetabek | Virtual Office Murah | Virtual Office Jakarta Selatan / Jakarta Utara | Virtual Office Jakarta Barat / Jakarta Timur | Virtual Office Jakarta Pusat"
+          content="legalmuda.co.id | legal muda | Virtual Office | Virtual Office 2 Jutaan | Virtual Office Jabodetabek | Virtual Office Murah | Virtual Office Jakarta Selatan / Jakarta Utara | Virtual Office Jakarta Barat / Jakarta Timur | Virtual Office Jakarta Pusat"
         />
         <link rel="icon" href="/faveico.ico" />
       </Head>
@@ -51,7 +51,7 @@ export default function VirtualOffice() {
                 dan berbagai macam{" "}
                 <span className="fontBold">FASILITAS LENGKAP</span> dan{" "}
                 <span className="fontBold">TERBAIK </span>
-                dari LegalMuda.com
+                dari legalmuda.co.id
               </h3>
             </div>
           </Col>
