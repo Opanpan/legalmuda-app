@@ -6,6 +6,8 @@ import facebook from "react-useanimations/lib/facebook";
 import instagram from "react-useanimations/lib/instagram";
 import twitter from "react-useanimations/lib/twitter";
 import Logo from "./Logo";
+import LogoWhatsapp from "../assets/img/logo-whatsapp 1.png";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -71,6 +73,34 @@ export default function Footer() {
               </Link>
             </Col>
           </Row>
+        </Col>
+        <Col className={`col-auto ${styles.footerPromo}`}>
+          <h3 className="fontBold" style={{ marginBottom: "24px" }}>
+            Promo Menarik
+          </h3>
+          <a
+            className={`${styles.linkWa}`}
+            href={`https://wa.me/6281296480098?text=Promo hari ini ada apa saja?`}
+          >
+            <div
+              className={`${styles.waContainer} d-flex justify-content-center align-items-center`}
+            >
+              <Row>
+                <Col className="col-auto p-0">
+                  <Image src={LogoWhatsapp} />
+                </Col>
+                <Col className="d-flex  align-items-center">
+                  <h2 style={{ color: "white" }} className="fontLight">
+                    Hubungi Kami
+                  </h2>
+                </Col>
+              </Row>
+            </div>
+          </a>
+          <h3 className={styles.footerItem}>
+            Dapatkan informasi tentang promo menarik tentang Layanan Legalitas
+            atau Website dan informasi Mengenai Bisnis Lainnya
+          </h3>
         </Col>
       </Row>
       <Row className="mt-3">

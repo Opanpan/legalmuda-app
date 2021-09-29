@@ -7,6 +7,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import CustomCard from "../../components/CustomCard";
 import DataProductVirtualOffice from "../../data/dataProdukVirtualOffice.json";
+import SocmedButton from "../../components/SocmedButton";
 
 export default function VirtualOffice() {
   const router = useRouter();
@@ -35,6 +36,13 @@ export default function VirtualOffice() {
       <Header pageName={pageName} />
       <Container fluid className="pageContainer">
         {/* ------------------------ FIRST CONTENT ------------------------ */}
+        <Row>
+          <Col>
+            <div className="d-flex justify-content-end">
+              <SocmedButton />
+            </div>
+          </Col>
+        </Row>
         <Row
           className="d-flex justify-content-center"
           style={{ height: "95vh" }}

@@ -13,6 +13,7 @@ import Pricing from "../assets/img/pricing 1.svg";
 import Professional from "../assets/img/professional 1.svg";
 import useInput from "../hooks/useInput";
 import urlencode from "urlencode";
+import SocmedButton from "../components/SocmedButton";
 
 export default function Home() {
   const router = useRouter();
@@ -72,9 +73,16 @@ export default function Home() {
       <Header pageName={pageName} />
       <Container fluid className="pageContainer">
         {/* ------------------------ FIRST CONTENT ------------------------ */}
+        <Row>
+          <Col>
+            <div className="d-flex justify-content-end">
+              <SocmedButton />
+            </div>
+          </Col>
+        </Row>
         <Row
           className="d-flex justify-content-center"
-          style={{ height: "80vh" }}
+          style={{ height: "85vh" }}
         >
           <Col className="col-auto align-self-center">
             <div className="firstLeftContent">

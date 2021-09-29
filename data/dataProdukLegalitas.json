@@ -1,5 +1,14 @@
 [
   {
+    "Nama": "PT KECIL",
+    "Harga": "IDR 4.5 JT",
+    "PacketItems": [
+      { "item": "Pengecekan Nama PT" },
+      { "item": "Akta Perseroan  dari Notaris" },
+      { "item": "SK dari Kementerian Hukum dan Hak Azasi Manusia" }
+    ]
+  },
+  {
     "Nama": "PT Bronze",
     "Harga": "IDR 6 JT",
     "Text": "Saya mau menanyakan legalitas PT dengan paket Bronze",
