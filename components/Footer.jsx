@@ -12,7 +12,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <Container fluid style={{ padding: "3%" }}>
-      <Row className="d-flex justify-content-between">
+      <Row className="d-flex justify-xl-content-around">
         <Col className={`col-auto ${styles.Footer}`}>
           <h3 style={{ marginBottom: "24px" }} className="fontBold">
             Head Office
@@ -93,9 +93,13 @@ export default function Footer() {
                   <Image src={LogoWhatsapp} />
                 </Col>
                 <Col className="d-flex  align-items-center">
-                  <h2 style={{ color: "white" }} className="fontLight">
+                  <h3
+                    id="promo"
+                    style={{ color: "white" }}
+                    className="fontLight"
+                  >
                     Hubungi Kami
-                  </h2>
+                  </h3>
                 </Col>
               </Row>
             </div>
