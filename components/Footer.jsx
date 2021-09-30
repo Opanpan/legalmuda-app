@@ -12,7 +12,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <Container fluid style={{ padding: "3%" }}>
-      <Row>
+      <Row className="d-flex justify-content-between">
         <Col className={`col-auto ${styles.Footer}`}>
           <h3 style={{ marginBottom: "24px" }} className="fontBold">
             Head Office
@@ -46,7 +46,10 @@ export default function Footer() {
             <h3 className={styles.serviceItem}>Branding Usaha</h3>
           </Link>
         </Col>
-        <Col className={`col-auto ${styles.Footer}`}>
+        <Col
+          className={`col-auto `}
+          style={{ marginTop: "40px", width: "200px" }}
+        >
           <h3 className="fontBold" style={{ marginBottom: "24px" }}>
             Follow us
           </h3>
